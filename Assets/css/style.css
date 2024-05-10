@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+/* Black Myke */
+
+.booking {
+    background-image: url('/Assets/Images/Frame.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: #FFFFFF;
+    
+}
+
+.article {
+    color: #05073C;
+}
+.article-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-head a {
+    text-decoration: none;
+    color: #05073C;
+}
+
+.trips-date {
+    display: flex;
+}
+.trips-date p {
+    padding-right: 10px;
+    font-size: 14px;
+}
+.trips a {
+    text-decoration: none;
+    color: #05073C;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.trips-p1 {
+    border-right: 2px solid #E7E6E6;
+}
+.trips-p2 {
+    padding-left: 10px;
+}
+
+.trips-overlay {
+    background-color: #FFFFFF;
+    color: #05073C;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26.25px;
+    padding: 0px 10px;
+}
+
+.booking-1 h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+.booking-btn {
+    color: #05073C;
+}
+
+footer {
+    background-color: #EB662B0D;
+    margin-top: 20px;
+    color: #05073C;
+}
+
+footer a {
+    text-decoration: none;
+    color: #05073C;
+}
+footer h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+.experts {
+    color: black;
+    font-size: 19.69px;
+    font-weight: 500;
+    line-height: 37.5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-bottom: 1px solid #EB662B26;
+}
+.tel {
+    color: #EB662B;
+}
+.experts a {
+    color: #05073C;
+    text-decoration: none;
+    font-size: 16.2px;
+    font-weight: 500;
+    line-height: 31.88px;
+    text-align: left;
+}
+
+
+
+@media (max-width: 767.98px) {
+    .trips-head {
+        display: block;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    .trips {
+        padding: 10px;
+        margin: auto;
+    }
+
+    .booking-text {
+        padding: 50px 50px 0px 50px;
+    }
+
+    .experts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid #EB662B26;
+    }
+ }
